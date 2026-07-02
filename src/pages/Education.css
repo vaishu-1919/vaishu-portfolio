@@ -1,0 +1,169 @@
+.education {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9fafb;
+}
+
+.education h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+/* ======================
+   EDUCATION SECTION
+====================== */
+
+.edu-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.edu-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 650px;
+  border-left: 6px solid #4f46e5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.edu-card h2 {
+  font-size: 22px;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.tag {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 4px 10px;
+  font-size: 14px;
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.college {
+  margin-top: 10px;
+  color: #4b5563;
+}
+
+.year {
+  margin-top: 10px;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 15px;
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+/* ======================
+   CERTIFICATES
+====================== */
+
+.certificate-title {
+  margin-bottom: 25px;
+}
+
+.certificate-section {
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  border: 2px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.certificate-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.certificate-card {
+  background: #ffffff;
+  border-left: 6px solid #4f46e5;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-card h2 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.certificate-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: #4f46e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.certificate-btn:hover {
+  background: #3730a3;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+
+@media (max-width: 768px) {
+  .education {
+    padding: 50px 15px;
+  }
+
+  .education h1 {
+    font-size: 28px;
+  }
+
+  .edu-card,
+  .certificate-card {
+    padding: 20px;
+  }
+
+  .edu-card h2,
+  .certificate-card h2 {
+    font-size: 20px;
+  }
+
+  .tag {
+    display: block;
+    width: fit-content;
+    margin: 10px 0 0;
+  }
+
+  .certificate-container {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-section {
+    padding: 20px;
+  }
+}

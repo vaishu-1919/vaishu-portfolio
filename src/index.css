@@ -1,0 +1,115 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* =========================
+   HTML & BODY
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f9fafb;
+  color: #111827;
+  overflow-x: hidden;
+}
+
+/* =========================
+   GLOBAL SECTION
+========================= */
+
+section {
+  padding: 60px 20px;
+  scroll-margin-top: 80px;
+}
+
+/* Home section only takes full screen */
+.home {
+  min-height: 100vh;
+}
+
+/* =========================
+   NAVBAR OFFSET
+========================= */
+
+#home {
+  padding-top: 100px;
+}
+
+/* =========================
+   COMMON CONTAINER
+========================= */
+
+section > div {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111827;
+}
+
+h2,
+h3 {
+  color: #111827;
+}
+
+/* =========================
+   PARAGRAPHS
+========================= */
+
+p {
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* =========================
+   COMMON CARD
+========================= */
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

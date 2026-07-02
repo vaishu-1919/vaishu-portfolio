@@ -1,0 +1,81 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* PAGE BACKGROUND */
+body {
+  background: #f9fafb;
+  color: #111827;
+}
+
+/* EACH SECTION */
+section {
+  padding: 60px 20px;
+  min-height: auto;
+}
+
+/* FIX NAVBAR SPACE */
+#home {
+  padding-top: 90px;
+}
+
+/* CENTER CONTENT INSIDE SECTIONS */
+section > div {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111827;
+}
+
+/* PARAGRAPHS */
+p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* GLOBAL BUTTON STYLE (optional reuse) */
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* SCROLL OFFSET FOR FIXED NAVBAR */
+section {
+  scroll-margin-top: 90px;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* LIGHT CARD EFFECT (reuse everywhere) */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
